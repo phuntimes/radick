@@ -1,5 +1,7 @@
 # Radik
 
+[![Build Status](https://travis-ci.org/phuntimes/radick.svg?branch=master)](https://travis-ci.org/phuntimes/radick)
+[![Coverage Status](https://coveralls.io/repos/github/phuntimes/radick/badge.svg?branch=master)](https://coveralls.io/github/phuntimes/radick?branch=master)
 
 Using [attrs], this project replaces [click]'s `IntParamType` with `Integer`, which supports parsing string 
 values from command line with arbitrary radix.
