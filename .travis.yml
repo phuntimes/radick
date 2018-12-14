@@ -1,0 +1,14 @@
+language: python
+matrix:
+  include:
+    - python: "3.5"
+    - python: "3.6"
+    - python: "3.7"
+      dist: xenial
+      sudo: true
+install:
+  - pip install .[coverage,coveralls]
+script:
+  - pytest --cov=radick --cov-config .coveragerc.cfg tests
+after_success:
+  - coveralls
