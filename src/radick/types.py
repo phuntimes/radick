@@ -7,7 +7,7 @@ an integer value with arbitrary radix.
 """
 
 __all__ = ["Integer"]
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 __author__ = 'Sean McVeigh'
 
 import attr

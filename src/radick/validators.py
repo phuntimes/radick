@@ -6,7 +6,7 @@ Module defines common :class:`Attribute` validators.
 """
 
 __all__ = ['is_int', 'is_base']
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 __author__ = 'Sean McVeigh'
 
 from attr import Attribute
