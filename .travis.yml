@@ -7,7 +7,7 @@ matrix:
       dist: xenial
       sudo: true
 install:
-  - pip install git+https://github.com/spmcveigh/radixal
+  - pip install git+https://github.com/phuntimes/radixal
   - pip install .[coverage,coveralls]
 script:
   - pytest --cov=radick --cov-config .coveragerc.cfg tests
