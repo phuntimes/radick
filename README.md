@@ -30,8 +30,8 @@ Note that `BIN`, `OCT`, `INT`, and `HEX` are available for convenience.
 
 A full [py.test] suite exists:
 
- * **unit** for testing character encoding
- * **func** for testing main function
+ * **unit** for testing new param type
+ * **func** for testing click equivalent
 
 [attrs]: http://www.attrs.org/
 [click]: http://click.pocoo.org/
