@@ -6,7 +6,7 @@ Module defines specific errors with predefined error messages.
 """
 
 __all__ = ["InvalidTypeError", "InvalidBaseError"]
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __author__ = 'Sean McVeigh'
 
 
